@@ -1,3 +1,6 @@
+mkdir build
 cd build
-make
+cmake ..
+cmake --build .
 cp OurGame ../OurGame
+cd ../
